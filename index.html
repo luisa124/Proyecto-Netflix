@@ -27,8 +27,8 @@
     
     <div id="features">
       <nav>
-        <div>
-          <a href="#">
+        <div class="center columns size-80">
+           <a href="#" class="column is-selected" data-id="cancelanytime">
               <span class="flaticon-login"></span>
             <h2>
               No commitments
@@ -37,23 +37,69 @@
             </h2>
           </a>
 
-          <a href="#">
+          <a href="#" class="column" data-id="watchanywhere">
            <span class="flaticon-screens-modern-variety"></span>
             <h2>
               Watch anywhere
             </h2>
           </a>
 
-          <a href="#">
+          <a href="#" class="column" data-id="pickprice">
            <span class="flaticon-tag"></span>
             <h2>
               Pick your price
             </h2>
           </a>
         </div>
+        <article>
+          <section class="is-selected center size-70" data-id="cancelanytime">
+              <div class="columns">
+                <div class="column">
+                  <h2>
+                    If you decide Netflix isn't for you - no problem. No commitment. Cancel online anytime.
+                  </h2>
+                  <button class="btn btn-large">JOIN FOR A FREE MONTH</button>
+                </div>
+
+                <div class="column">
+                  <img src="assets/img/cancel.png"/>
+                </div>
+              </div>
+            </section>
+           <!--  section dos -->
+            <section class="center size-80" id="watchanywhere" data-id="watchanywhere">
+              <div class="columns">
+                <h2 class="column">
+                  Watch TV shows and movies anytime, anywhere — personalized for you.
+                </h2>
+                <button class="btn btn-large column is-narrow">JOIN FOR A FREE MONTH</button>
+              </div>
+               <div class="columns size-90 center">
+                <div class="column text-center">
+                  <img src="img/asset_TV_UI.png"/>
+                  <h3>Watch on your TV</h3>
+                  <p>Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                </div>
+
+                <div class="column text-center">
+                  <img src="img/asset_mobile_tablet_UI_2.png"/>
+                  <h3>Watch instantly or download for later</h3>
+                  <p>Available on phone and tablet, wherever you go.</p>
+                </div>
+
+                <div class="column text-center">
+                  <img src="img/asset_website_UI.png"/>
+                  <h3>Use any computer</h3>
+                  <p>Watch right on Netflix.com.</p>
+                </div>
+              </div>
+            </section>
+        </article>
       </nav>
     </div>
 
+<script src="assets/js/jquery-3.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>
